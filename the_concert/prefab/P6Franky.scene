@@ -1,0 +1,85 @@
+{
+    "id": "26bd944e-8009-4f9e-bf8b-d549d7f51655",
+    "sceneType": "PREFAB",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "superClassName": "P6BaseMascot",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "187ab50f-12d3-43da-93b4-6dc1cf99dee0",
+            "label": "container",
+            "components": [],
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "78567795-ee0d-4754-b0be-a740fa23c9eb",
+                    "label": "v_wave",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "1bc822af-2f8c-4797-813a-53c253be9647",
+                            "label": "c_wave",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/franky/wave/0001"
+                            },
+                            "x": -84,
+                            "y": -11
+                        },
+                        {
+                            "type": "Image",
+                            "id": "916e585c-f6d7-4eb2-84dd-939c470c6b36",
+                            "label": "party6_band_franky_piano",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/franky/piano"
+                            },
+                            "x": -8,
+                            "y": 29
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6708ea94-c63b-44d5-80fb-6fda7dde5da3",
+                    "label": "v_play",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "add3755b-0297-40dd-98b0-12d2a8b79438",
+                            "label": "c_play",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/franky/play/1_0001"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

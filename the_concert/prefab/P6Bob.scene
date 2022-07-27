@@ -1,0 +1,75 @@
+{
+    "id": "a2ca3a05-68bf-4f9e-94bb-67822065f174",
+    "sceneType": "PREFAB",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "superClassName": "P6BaseMascot",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f06a7206-468b-4554-8578-c047e96b85e6",
+            "label": "container",
+            "components": [],
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "fe07f9a4-c20a-4a10-85d5-a09f690e5860",
+                    "label": "v_wave",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -9,
+                    "y": 2,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "10fb503f-df56-4214-8a65-cdfaab4355ad",
+                            "label": "c_wave",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/bob/wave/1_0001"
+                            },
+                            "x": 21,
+                            "y": -3
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7c8451b9-2ede-4e66-967d-7fc94ecdec8f",
+                    "label": "v_play",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "e93034d7-a843-430f-93fe-29b20105aaaa",
+                            "label": "c_play",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/bob/play/1_0001"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

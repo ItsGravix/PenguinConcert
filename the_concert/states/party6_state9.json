@@ -1,0 +1,76 @@
+{
+  "type": "timer",
+  "song": "",
+  "cheer": true,
+  "secondList": [
+    {
+      "second": 0,
+      "events": [
+        {
+          "type": "Tween",
+          "tween": {
+            "targets": ["foreground_color"],
+            "alpha": {
+              "from": 0,
+              "to": 1
+            },
+            "ease": "Phaser.Math.Easing.Quadratic.Out",
+            "duration": 500,
+            "yoyo": true
+          }
+        },
+        {"type":"CallFunction","name":"hideHalloween","args":[]},
+        {
+          "type": "MascotState",
+          "target": "c_billy",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_bob",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_cadence",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_franky",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_petey",
+          "state": "wave"
+        }
+      ]
+    },
+    {
+      "second": 1,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "duration": 6000,
+          "text": "THANK YOU FOR COMING!"
+        }
+      ]
+    },
+    {
+      "second": 7,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "emote": "0030_0001"
+        }
+      ]
+    }
+  ]
+}

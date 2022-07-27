@@ -1,0 +1,133 @@
+{
+    "id": "2a18ef3e-ca65-42a4-ac0a-2752264e13b3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "superClassName": "ContainerElement",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "388c4958-f6a7-4e9a-8196-3003c6b9e371",
+            "label": "container",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "8c04678c-80d4-4386-aa90-7dc673380238",
+                    "label": "party6_lights1_base",
+                    "components": [],
+                    "texture": {
+                        "key": "party6@4x",
+                        "frame": "party6/lights1/base"
+                    },
+                    "x": 9,
+                    "y": 28
+                },
+                {
+                    "type": "Image",
+                    "id": "200e6603-8f99-4d30-91a7-030d6aceefca",
+                    "label": "light3",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "party6@4x",
+                        "frame": "party6/lights1/light"
+                    },
+                    "x": 230,
+                    "y": 143,
+                    "scaleX": 0.8850571355403131,
+                    "scaleY": 0.8850571355403131
+                },
+                {
+                    "type": "Image",
+                    "id": "4f43dc0d-176d-4699-a61c-4ee36c5d33d8",
+                    "label": "light2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "party6@4x",
+                        "frame": "party6/lights1/light"
+                    },
+                    "x": 124,
+                    "y": 163,
+                    "scaleX": 0.9736070264513931,
+                    "scaleY": 0.9736070264513931
+                },
+                {
+                    "type": "Image",
+                    "id": "4a98e892-e142-4bd1-84dd-1e826224a86b",
+                    "label": "light1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "party6@4x",
+                        "frame": "party6/lights1/light"
+                    },
+                    "x": 16,
+                    "y": 177
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "9fc5d36d-b367-4551-853c-fe9c33f173df",
+                    "label": "rectangle",
+                    "components": [],
+                    "x": -125,
+                    "y": -93,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 2,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "9f52d026-0c41-4bd0-b08c-1dbc166e5b02",
+                    "label": "rectangle_1",
+                    "components": [],
+                    "x": 138,
+                    "y": -103,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 2,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "b31dabce-03d4-4002-b373-9890a9ce9709",
+                    "label": "rectangle_1_1",
+                    "components": [],
+                    "x": 91,
+                    "y": -109,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 2,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2cf25a96-beb2-4ff9-81db-d87483b6365e",
+                    "label": "rectangle_1_1_1",
+                    "components": [],
+                    "x": -78,
+                    "y": -86,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 2,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

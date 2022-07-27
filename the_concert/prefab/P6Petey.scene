@@ -1,0 +1,73 @@
+{
+    "id": "72b6747b-f96f-4f07-aeec-c733042b19f5",
+    "sceneType": "PREFAB",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "superClassName": "P6BaseMascot",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "7dcbf45a-571c-47c9-8fa9-636713f9a8f7",
+            "label": "container",
+            "components": [],
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "a678d5a1-af72-4376-9649-1d42208883a9",
+                    "label": "v_wave",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "85d48329-8ef6-4d47-baf2-6f85859e4a1e",
+                            "label": "c_play_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/petey/play/1_0012"
+                            },
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "c7ca3b0c-9a53-4481-af7d-3e8f397abe62",
+                    "label": "v_play",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "71ab8d3f-2feb-4a17-ae59-65059f7e50e9",
+                            "label": "c_play",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/petey/play/1_0001"
+                            },
+                            "flipX": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

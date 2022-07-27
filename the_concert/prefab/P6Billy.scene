@@ -1,0 +1,73 @@
+{
+    "id": "18d6a34c-bcdb-49b6-a482-9577df9ffe3f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "superClassName": "P6BaseMascot",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "d0b19426-157a-4927-bce7-a0aa18ef4e0a",
+            "label": "container",
+            "components": [],
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "93d1d027-1773-4757-98c6-ebc772093422",
+                    "label": "v_play",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "f0924d08-171f-47fa-8bb7-a1e2d4ae6858",
+                            "label": "c_play",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/billy/play/1_0001"
+                            },
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2f7ec237-632e-40a8-bd09-ff356488519f",
+                    "label": "v_wave",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "fbb686b2-476c-47f3-bfb7-fbfb2ecdc372",
+                            "label": "wavee",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/billy/play/1_0016"
+                            },
+                            "flipX": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

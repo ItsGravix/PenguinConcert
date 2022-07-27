@@ -1,0 +1,1064 @@
+{
+  "type": "song",
+  "song": "its_your_birthday",
+  "offsetMS": -100,
+  "cheer": true,
+  "secondList": [
+    {
+      "second": 0.1,
+      "events": [
+        {
+          "type": "MascotState",
+          "target": "c_billy",
+          "state": "play"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_bob",
+          "state": "play"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_cadence",
+          "state": "play"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_franky",
+          "state": "play"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_petey",
+          "state": "play"
+        },
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "duration": 6000,
+          "text": "LET'S EAT SOME BIRTHDAY CAKE!!"
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights2_1",
+          "values": {
+            "prop_alternate_colors": ["pink", "blue"],
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights2_2",
+          "values": {
+            "prop_alternate_colors": ["pink", "blue"],
+            "prop_random_delay": 387
+          }
+        }
+      ]
+    },
+    {
+      "second": 2,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_petey",
+          "id": "petey",
+          "offsetY": 20,
+          "emote": "0028"
+        }
+      ]
+    },
+    {
+      "second": 3,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_bob",
+          "id": "bob",
+          "offsetY": 20,
+          "emote": "0028"
+        }
+      ]
+    },
+    {
+      "second": 3.5,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_billy",
+          "id": "billy",
+          "offsetY": 20,
+          "emote": "0028"
+        }
+      ]
+    },
+    {
+      "second": 3.9,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_franky",
+          "id": "franky",
+          "offsetY": 20,
+          "emote": "0028"
+        }
+      ]
+    },
+    {
+      "second": 6.3,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": 387
+          }
+        }
+      ]
+    },
+    {
+      "second": 9.4,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": -1
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": -1
+          }
+        }
+      ]
+    },
+    {
+      "second": 10,
+      "events": [
+
+      ]
+    },
+    {
+      "second": 11,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "emote": "0028"
+        }
+      ]
+    },
+    {
+      "second": 12,
+      "events": [
+
+      ]
+    },
+    {
+      "second": 15,
+      "events": [
+
+      ]
+    },
+    {
+      "second": 18.6,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_franky",
+          "id": "franky",
+          "offsetY": 20,
+          "text": "Birthday"
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": 387
+          }
+        }
+      ]
+    },
+    {
+      "second": 19.3,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_billy",
+          "id": "billy",
+          "offsetY": 20,
+          "text": "Birthday!"
+        }
+      ]
+    },
+    {
+      "second": 19.9,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": -1
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": -1
+          }
+        }
+      ]
+    },
+    {
+      "second": 21.4,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_bob",
+          "id": "bob",
+          "offsetY": 20,
+          "text": "More fun"
+        }
+      ]
+    },
+    {
+      "second": 22,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_petey",
+          "id": "petey",
+          "offsetY": 20,
+          "text": "More cake!"
+        }
+      ]
+    },
+    {
+      "second": 28,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_alternate_colors": ["green", "blue"],
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_alternate_colors": ["green", "blue"],
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights2_1",
+          "values": {
+            "prop_alternate_colors": ["green", "blue"],
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights2_2",
+          "values": {
+            "prop_alternate_colors": ["green", "blue"],
+            "prop_random_delay": 387
+          }
+        }
+      ]
+    },
+    {
+      "second": 31.1,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_alternate_colors": [],
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_alternate_colors": [],
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights2_1",
+          "values": {
+            "prop_alternate_colors": [],
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights2_2",
+          "values": {
+            "prop_alternate_colors": [],
+            "prop_random_delay": 387
+          }
+        }
+      ]
+    },
+    {
+      "second": 41.9,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_random_delay": -1
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_random_delay": -1
+          }
+        },
+        {
+          "type": "SetPropColor",
+          "target": "lights1_1",
+          "color": "white"
+        },
+        {
+          "type": "SetPropColor",
+          "target": "lights1_2",
+          "color": "white"
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_1",
+          "name": "setLightVisible",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_2",
+          "name": "setLightVisible",
+          "args": [false]
+        }
+      ]
+    },
+    {
+      "second": 42.2,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_1",
+          "name": "setLightVisible",
+          "args": [true]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_2",
+          "name": "setLightVisible",
+          "args": [true]
+        }
+      ]
+    },
+    {
+      "second": 42.5,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_1",
+          "name": "setLightVisible",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_2",
+          "name": "setLightVisible",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights2_1",
+          "name": "setLightVisible",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights2_2",
+          "name": "setLightVisible",
+          "args": [false]
+        }
+      ]
+    },
+    {
+      "second": 43.5,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_1",
+          "name": "setLightVisible",
+          "args": [true]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_2",
+          "name": "setLightVisible",
+          "args": [true]
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights2_1",
+          "name": "setLightVisible",
+          "args": [true]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights2_2",
+          "name": "setLightVisible",
+          "args": [true]
+        }
+      ]
+    },
+    {
+      "second": 52.7,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": 96.5
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": 96.5
+          }
+        }
+      ]
+    },
+    {
+      "second": 55.9,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": -1
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": -1
+          }
+        }
+      ]
+    },
+    {
+      "second": 79.1,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_1",
+          "name": "setLightVisible",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_2",
+          "name": "setLightVisible",
+          "args": [false]
+        }
+      ]
+    },
+    {
+      "second": 79.4,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_1",
+          "name": "setLightVisible",
+          "args": [true]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_2",
+          "name": "setLightVisible",
+          "args": [true]
+        }
+      ]
+    },
+    {
+      "second": 79.6,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_1",
+          "name": "setLightVisible",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_2",
+          "name": "setLightVisible",
+          "args": [false]
+        }
+      ]
+    },
+    {
+      "second": 80.6,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_1",
+          "name": "setLightVisible",
+          "args": [true]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "lights1_2",
+          "name": "setLightVisible",
+          "args": [true]
+        }
+      ]
+    },
+    {
+      "second": 93.1,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": 387
+          }
+        },
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "FLIPPERS UP!!"
+        }
+      ]
+    },
+    {
+      "second": 101.9,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": -1
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": -1
+          }
+        }
+      ]
+    },
+    {
+      "second": 102.2,
+      "events": [
+        {
+          "type": "Tween",
+          "tween": {
+            "targets": ["foreground_color"],
+            "alpha": 0.3,
+            "ease": "Phaser.Math.Easing.Quadratic.Out",
+            "duration": 4000
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_random_delay": 387,
+            "prop_strobe_delay": 96.49500,
+            "prop_alternate_colors": ["blue", "ANNI5_ORANGE"]
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_random_delay": 387,
+            "prop_strobe_delay": 96.49500,
+            "prop_alternate_colors": ["blue", "ANNI5_ORANGE"]
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights2_1",
+          "values": {
+            "prop_alternate_colors": ["pink", "blue"],
+            "prop_random_delay": 387
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights2_2",
+          "values": {
+            "prop_alternate_colors": ["pink", "blue"],
+            "prop_random_delay": 387
+          }
+        }
+      ]
+    },
+    {
+      "second": 103.8,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_random_delay": 387,
+            "prop_strobe_delay": 80.4125,
+            "prop_alternate_colors": ["blue", "ANNI5_ORANGE"]
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_random_delay": 387,
+            "prop_strobe_delay": 80.4125,
+            "prop_alternate_colors": ["blue", "ANNI5_ORANGE"]
+          }
+        }
+      ]
+    },
+    {
+      "second": 105.4,
+      "events": [
+        {
+          "type": "Tween",
+          "tween": {
+            "targets": ["foreground_color"],
+            "alpha": 0,
+            "ease": "Phaser.Math.Easing.Quadratic.Out",
+            "duration": 100
+          }
+        },
+
+        {
+          "type": "Tween",
+          "tween": {
+            "targets": ["sky_color"],
+            "alpha": 0.5,
+            "ease": "Phaser.Math.Easing.Quadratic.Out",
+            "duration": 300
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "sky_color",
+          "values": {
+            "visible": true,
+            "fillColor": 16197695
+          }
+        },
+
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": -1,
+            "prop_alternate_colors": ["red", "white"]
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": -1,
+            "prop_alternate_colors": ["red", "white"]
+          }
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_1",
+          "name": "setFireState",
+          "args": ["on"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_2",
+          "name": "setFireState",
+          "args": ["on"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_3",
+          "name": "setFireState",
+          "args": ["on"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire1_1",
+          "name": "setFireState",
+          "args": ["on"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire1_2",
+          "name": "setFireState",
+          "args": ["on"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire1_3",
+          "name": "setFireState",
+          "args": ["on"]
+        }
+      ]
+    },
+    {
+      "second": 105.5,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_4",
+          "name": "setFireState",
+          "args": ["on"]
+        }
+      ]
+    },
+    {
+      "second": 105.6,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_5",
+          "name": "setFireState",
+          "args": ["on"]
+        }
+      ]
+    },
+    {
+      "second": 105.7,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_6",
+          "name": "setFireState",
+          "args": ["on"]
+        }
+      ]
+    },
+    {
+      "second": 105.8,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_7",
+          "name": "setFireState",
+          "args": ["on"]
+        }
+      ]
+    },
+    {
+      "second": 105.9,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_8",
+          "name": "setFireState",
+          "args": ["on"]
+        }
+      ]
+    },
+    {
+      "second": 106,
+      "events": [
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_9",
+          "name": "setFireState",
+          "args": ["on"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire1_4",
+          "name": "setFireState",
+          "args": ["on"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire1_5",
+          "name": "setFireState",
+          "args": ["on"]
+        }
+      ]
+    },
+    {
+      "second": 108.5,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_alternate_colors": ["purple", "white"]
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_alternate_colors": ["purple", "white"]
+          }
+        }
+      ]
+    },
+    {
+      "second": 111.6,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_alternate_colors": ["blue", "white"]
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_alternate_colors": ["blue", "white"]
+          }
+        }
+      ]
+    },
+    {
+      "second": 114.6,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_alternate_colors": ["gray_purple", "white"]
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_alternate_colors": ["gray_purple", "white"]
+          }
+        }
+      ]
+    },
+    {
+      "second": 116.2,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": 64.33,
+            "prop_alternate_colors": ["anni5_orange", "anni5_blue"]
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": 64.33,
+            "prop_alternate_colors": ["anni5_orange", "anni5_blue"]
+          }
+        }
+      ]
+    },
+    {
+      "second": 117.8,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_strobe_delay": -1,
+            "prop_alternate_colors": ["anni5_orange", "anni5_blue"]
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_strobe_delay": -1,
+            "prop_alternate_colors": ["anni5_orange", "anni5_blue"]
+          }
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_1",
+          "name": "setFireState",
+          "args": ["on"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_2",
+          "name": "setFireState",
+          "args": ["on"]
+        }
+      ]
+    },
+    {
+      "second": 999,
+      "events": [
+
+      ]
+    },
+    {
+      "second": 141,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "HAPPY ANNIVERSARY, CPR!!"
+        },
+
+        {
+          "type": "Tween",
+          "tween": {
+            "targets": ["sky_color"],
+            "alpha": 0,
+            "ease": "Phaser.Math.Easing.Quadratic.Out",
+            "duration": 1000
+          }
+        },
+
+        {
+          "type": "CallPropFunction",
+          "target": "fire1_1",
+          "name": "setFireState",
+          "args": ["off"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire1_2",
+          "name": "setFireState",
+          "args": ["off"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire1_3",
+          "name": "setFireState",
+          "args": ["off"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire1_4",
+          "name": "setFireState",
+          "args": ["off"]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire1_5",
+          "name": "setFireState",
+          "args": ["off"]
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "prop_alternate_colors": [],
+            "prop_random_delay": -1
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "prop_alternate_colors": [],
+            "prop_random_delay": -1
+          }
+        },
+        {
+          "type": "SetPropColor",
+          "target": "lights1_1",
+          "color": "white"
+        },
+        {
+          "type": "SetPropColor",
+          "target": "lights1_2",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "second": 144,
+      "events": [
+
+      ]
+    }
+  ]
+}

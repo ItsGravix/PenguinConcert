@@ -1,0 +1,66 @@
+{
+    "id": "14931757-12cc-4beb-9e0b-28ba7ec0be14",
+    "sceneType": "PREFAB",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "superClassName": "ContainerElement",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "9c52f541-26fb-4367-ae06-f1c3d31237e5",
+            "label": "container",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "1bb06409-0a79-49c8-bbc0-7d1081548d02",
+                    "label": "shadow",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "party6@4x",
+                        "frame": "party6/fire2/shadow"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "b39b63d9-25c8-4041-b0f5-fede6787debd",
+                    "label": "base",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "party6@4x",
+                        "frame": "party6/fire1/platform1"
+                    },
+                    "y": -11
+                },
+                {
+                    "type": "Sprite",
+                    "id": "be7e5d82-59d5-44bf-b806-037412f6932a",
+                    "label": "fire",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "party6@4x",
+                        "frame": "party6/fire2/1/1_0016"
+                    },
+                    "x": 1,
+                    "y": -120
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

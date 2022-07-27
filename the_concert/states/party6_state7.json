@@ -1,0 +1,183 @@
+{
+  "type": "timer",
+  "song": "silence",
+  "cheer": true,
+  "secondList": [
+    {
+      "second": 0,
+      "events": [
+        {
+          "type": "MascotState",
+          "target": "c_billy",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_bob",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_cadence",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_franky",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_petey",
+          "state": "wave"
+        }
+      ]
+    },
+    {
+      "second": 1,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "What happened to the music?!"
+        }
+      ]
+    },
+    {
+      "second": 2,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_petey",
+          "id": "petey",
+          "offsetY": 20,
+          "text": "Hold on, hold on!"
+        }
+      ]
+    },
+    {
+      "second": 5,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_petey",
+          "id": "petey",
+          "offsetY": 20,
+          "text": "I think we're having some technical issues..."
+        }
+      ]
+    },
+    {
+      "second": 9,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "Attention everyone!"
+        }
+      ]
+    },
+    {
+      "second": 12,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "Somebody seems to have left a note for us!"
+        }
+      ]
+    },
+    {
+      "second": 16,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "The note is from... Shellbeard?!"
+        }
+      ]
+    },
+    {
+      "second": 18,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_bob",
+          "id": "bob",
+          "offsetY": 20,
+          "text": "What does he want now..."
+        }
+      ]
+    },
+    {
+      "second": 22,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "\"ARGH! Me regrets coming back to get me map.\""
+        }
+      ]
+    },
+    {
+      "second": 26,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "duration": 6000,
+          "text": "\"Your music hurts me ears. Play something good or I'll stop ye band!\""
+        }
+      ]
+    },
+    {
+      "second": 33,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_petey",
+          "id": "petey",
+          "offsetY": 20,
+          "text": "Shellbeard! You've been on this planet for thousands of years..."
+        }
+      ]
+    },
+    {
+      "second": 38,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_petey",
+          "id": "petey",
+          "offsetY": 20,
+          "text": "Has your old ghost ever tried having FUN?! Come on!"
+        }
+      ]
+    },
+    {
+      "second": 43,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "duration": 7000,
+          "text": "This next song is for you and your ghost buddies. Listen up!"
+        }
+      ]
+    }
+  ]
+}

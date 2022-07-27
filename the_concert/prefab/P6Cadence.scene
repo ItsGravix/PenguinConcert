@@ -1,0 +1,70 @@
+{
+    "id": "c12c6aee-ebe8-4e27-bd3a-bcb6df3d7cd1",
+    "sceneType": "PREFAB",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "superClassName": "P6BaseMascot",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c1650874-d196-42c1-ab8a-c8f5332ad0e2",
+            "label": "container",
+            "components": [],
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "4ac296a6-2da8-4f15-90e5-80999c26a740",
+                    "label": "v_wave",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4ff93c87-1ad7-42f0-8155-eb5dc6075cad",
+                            "label": "party6_band_cadence_play_1_0121",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/cadence/play/1_0121"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a49d57c0-266b-4e8d-a9f8-0d2f0f3d98ab",
+                    "label": "v_play",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "df2a4ed4-81c3-4ab0-9403-745410ee0c2f",
+                            "label": "c_play",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "party6@4x",
+                                "frame": "party6/band/cadence/play/1_0001"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

@@ -1,0 +1,426 @@
+{
+  "type": "timer",
+  "song": "",
+  "cheer": true,
+  "secondList": [
+    {
+      "second": 0,
+      "events": [
+        {
+          "type": "SetProperty",
+          "target": "giveaway_btn",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "foreground_color",
+          "values": {
+            "fillColor": 0,
+            "alpha": 0,
+            "visible": true
+          }
+        },
+        {
+          "type": "Tween",
+          "tween": {
+            "targets": ["foreground_color"],
+            "alpha": 1,
+            "ease": "Phaser.Math.Easing.Quadratic.Out",
+            "duration": 500
+          }
+        }
+      ]
+    },
+    {
+      "second": 0.5,
+      "events": [
+        {
+          "type": "Tween",
+          "tween": {
+            "targets": ["darkness"],
+            "alpha": 1,
+            "ease": "Phaser.Math.Easing.Quadratic.Out",
+            "duration": 500
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "darkness",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire1_1",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire1_2",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire1_3",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire1_4",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire1_5",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire2_1",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire2_2",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire2_3",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire2_4",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire2_5",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire2_6",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire2_7",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire2_8",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "fire2_9",
+          "values": {
+            "visible": false
+          }
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_3",
+          "name": "setShowBase",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_4",
+          "name": "setShowBase",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_5",
+          "name": "setShowBase",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_6",
+          "name": "setShowBase",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_7",
+          "name": "setShowBase",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_8",
+          "name": "setShowBase",
+          "args": [false]
+        },
+        {
+          "type": "CallPropFunction",
+          "target": "fire2_9",
+          "name": "setShowBase",
+          "args": [false]
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_1",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights1_2",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights2_1",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "lights2_2",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "c_petey",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "c_franky",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "c_cadence",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "c_bob",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "SetProperty",
+          "target": "c_billy",
+          "values": {
+            "visible": true
+          }
+        },
+        {
+          "type": "MascotState",
+          "target": "c_billy",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_bob",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_cadence",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_franky",
+          "state": "wave"
+        },
+        {
+          "type": "MascotState",
+          "target": "c_petey",
+          "state": "wave"
+        }
+      ]
+    },
+    {
+      "second": 1,
+      "events": [
+        {
+          "type": "Tween",
+          "tween": {
+            "targets": ["foreground_color"],
+            "alpha": 0,
+            "ease": "Phaser.Math.Easing.Quadratic.Out",
+            "duration": 1000
+          }
+        }
+      ]
+    },
+    {
+      "second": 3,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "testing 123..."
+        }
+      ]
+    },
+    {
+      "second": 4,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "Hello! Welcome everyone!"
+        }
+      ]
+    },
+    {
+      "second": 9,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "I am so happy to be able to see you all once again"
+        }
+      ]
+    },
+    {
+      "second": 14,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "We are celebrating CPR's 5th anniversary..."
+        }
+      ]
+    },
+    {
+      "second": 18,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "And the awesome milestone of 11 million penguins!"
+        }
+      ]
+    },
+    {
+      "second": 22,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "Can you believe that, Franky?"
+        }
+      ]
+    },
+    {
+      "second": 23,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_franky",
+          "id": "franky",
+          "offsetY": 20,
+          "text": "I sure can! That's awesome!"
+        }
+      ]
+    },
+    {
+      "second": 24,
+      "events": [
+
+      ]
+    },
+    {
+      "second": 25,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_franky",
+          "id": "franky",
+          "offsetY": 20,
+          "text": "also my arm's getting tired"
+        }
+      ]
+    },
+    {
+      "second": 26,
+      "events": [
+        {
+          "type": "SpeechBubble",
+          "target": "c_cadence",
+          "id": "cadence",
+          "offsetY": 20,
+          "text": "Woo hoo!! Without further ado..."
+        }
+      ]
+    },
+    {
+      "second": 26.5,
+      "events": [
+
+      ]
+    },
+    {
+      "second": 31,
+      "events": [
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+    "id": "422f9134-82bb-4d22-a4ad-28d156a54a64",
+    "sceneType": "PREFAB",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "superClassName": "ContainerElement",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c0316cd1-051d-4199-ab00-fccc9ca5cee0",
+            "label": "container",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "46331d3a-4e02-4219-bea5-52b7b91a79df",
+                    "label": "party6_lights2_bulb0001",
+                    "components": [],
+                    "texture": {
+                        "key": "party6@4x",
+                        "frame": "party6/lights2/bulb0001"
+                    },
+                    "x": 134.37054443359375,
+                    "y": 26.745214462280273,
+                    "tintTopLeft": "#9e9e9e",
+                    "tintTopRight": "#9e9e9e",
+                    "tintBottomLeft": "#9e9e9e",
+                    "tintBottomRight": "#9e9e9e"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6af498ea-687d-4634-8013-469fb8c21714",
+                    "label": "light",
+                    "scope": "CLASS",
+                    "components": [
+                        "PlayAnimation"
+                    ],
+                    "PlayAnimation.playAnimationKey": "party6/lights2",
+                    "PlayAnimation.showCursor": false,
+                    "texture": {
+                        "key": "party6@4x",
+                        "frame": "party6/lights2/1/1_0001"
+                    },
+                    "x": 156,
+                    "y": 29,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "alpha": 0.6,
+                    "alphaTopLeft": 0.6,
+                    "alphaTopRight": 0.6,
+                    "alphaBottomLeft": 0.6,
+                    "alphaBottomRight": 0.6,
+                    "tintTopLeft": "#A6D9FF",
+                    "tintTopRight": "#A6D9FF",
+                    "tintBottomLeft": "#A6D9FF",
+                    "tintBottomRight": "#A6D9FF"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
