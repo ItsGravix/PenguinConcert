@@ -6,6 +6,6 @@ https://www.youtube.com/watch?v=YE9wO5wP0NE
 
 ## This is a virtual concert system that I made in like 2 days
 
-Don't even bother trying to make it work out of the box. I had to remove some things.
+Don't even bother trying to make it work out of the box, I had to remove some files that were made by other team members.
 
 I used FL Studio to program it. The fun stuff is in `the_concert/system/`
